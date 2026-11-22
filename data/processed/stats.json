@@ -1,0 +1,62 @@
+{
+  "scope": "reviewed",
+  "services": 428,
+  "documents": 1214,
+  "skipped_non_english": 113,
+  "passages": 101234,
+  "passage_words": {
+    "count": 101234.0,
+    "mean": 46.8,
+    "std": 44.9,
+    "min": 5.0,
+    "25%": 15.0,
+    "50%": 32.0,
+    "75%": 62.0,
+    "max": 913.0
+  },
+  "approved_points_for_categories": 1210,
+  "quote_alignment": {
+    "offsets": 1126,
+    "prefix_search": 25,
+    "exact_search": 25,
+    "not_found": 34
+  },
+  "per_category": {
+    "arbitration": {
+      "points": 208,
+      "documents_with_label": 128,
+      "relevant_passages": 205,
+      "dev_pairs": 34,
+      "test_pairs": 94
+    },
+    "recurring_charges": {
+      "points": 58,
+      "documents_with_label": 53,
+      "relevant_passages": 56,
+      "dev_pairs": 13,
+      "test_pairs": 40
+    },
+    "data_sharing": {
+      "points": 288,
+      "documents_with_label": 207,
+      "relevant_passages": 374,
+      "dev_pairs": 57,
+      "test_pairs": 150
+    },
+    "content_license": {
+      "points": 341,
+      "documents_with_label": 145,
+      "relevant_passages": 184,
+      "dev_pairs": 42,
+      "test_pairs": 103
+    },
+    "terms_changes": {
+      "points": 315,
+      "documents_with_label": 300,
+      "relevant_passages": 332,
+      "dev_pairs": 74,
+      "test_pairs": 226
+    }
+  },
+  "labelled_pairs": 833
+}
