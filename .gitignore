@@ -1,0 +1,20 @@
+# Raw ToS;DR CSVs are too big for GitHub (documents.csv is ~268 MB).
+# Download them yourself into data/raw/ (see DATA_PREP.md).
+# The processed files in data/processed/ ARE committed.
+data/raw/
+
+# Pyserini / MP1 outputs
+indexes/
+processed_corpus/
+results_*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

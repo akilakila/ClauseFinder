@@ -1,0 +1,49 @@
+{
+  "_note": "ClauseFinder category -> ToS;DR case_id mapping. A passage counts as relevant to a category if it overlaps an approved point whose case_id is listed here. Rule: include cases whose quoted passage IS the clause (even if ToS;DR rates it 'good'); exclude cases that state the clause is absent (e.g. 335 'not forced into arbitration').",
+  "arbitration": {
+    "case_ids": [339, 117],
+    "cases": {
+      "339": "You are forced into binding arbitration in case of disputes",
+      "117": "You waive your right to a class action."
+    }
+  },
+  "recurring_charges": {
+    "case_ids": [384],
+    "cases": {
+      "384": "You authorise the service to charge a credit card supplied on re-occurring basis"
+    }
+  },
+  "data_sharing": {
+    "case_ids": [166, 188, 396],
+    "cases": {
+      "166": "This service shares your personal data with third parties that are not essential to its operation",
+      "188": "This service gives your personal data to third parties involved in its operation",
+      "396": "Your Personal data may be sold unless you opt out"
+    }
+  },
+  "content_license": {
+    "case_ids": [130, 132, 134, 135, 136, 139, 173, 180, 402],
+    "cases": {
+      "130": "A license is kept on user-generated content even after you close your account",
+      "132": "The copyright license maintained by the service over your data and/or content is broader than necessary.",
+      "134": "Your content can be licensed to third parties",
+      "135": "Copyright license limited for the purposes of that same service but transferable and sublicenseable",
+      "136": "The copyright license that you grant this service is limited to the parties that make up the service's broader platform.",
+      "139": "Your content can be distributed through any media known now or in the future",
+      "173": "This service retains rights to your content even after you stop using your account",
+      "180": "This service can use your content for all their existing and future services",
+      "402": "The service has non-exclusive use of your content"
+    }
+  },
+  "terms_changes": {
+    "case_ids": [121, 122, 123, 124, 329, 502],
+    "cases": {
+      "121": "Terms may be changed any time at their discretion, without notice to you",
+      "122": "The terms may be changed at any time, but you will receive notification of the changes",
+      "123": "When the service wants to change its terms, you are notified a week or more in advance.",
+      "124": "When the service wants to make a material change to its terms, you are notified at least 30 days in advance",
+      "329": "You should revisit the terms periodically, although in case of material changes, the service will notify",
+      "502": "Changes in policies are applied retroactively."
+    }
+  }
+}
